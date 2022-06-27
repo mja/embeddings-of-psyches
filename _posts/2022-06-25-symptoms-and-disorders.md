@@ -34,7 +34,7 @@ I was struck by how the prompt generated images of framed paintings hung in gall
 
 <a href="{{ mj67302fc3[0].url }}"><img src="{{ mj67302fc3[0].image }}" alt="{{ mj67302fc3[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj709295e5[0].url }}"><img src="{{ mj709295e5[0].image }}" alt="{{ mj709295e5[0].prompt }}" width="45%" height="45%"/></a>
 
-<a href="{{ mj52e1ada0[0].url }}"><img src="{{ mj52e1ada0[0].image }}" alt="{{ mj52e1ada0[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj3c641717[0].url }}"><img src="{{ mj3c641717[0].image }}" alt="{{ mj3c641717[0].prompt }}" width="50%" height="50%"/></a>
+<a href="{{ mj52e1ada0[0].url }}"><img src="{{ mj52e1ada0[0].image }}" alt="{{ mj52e1ada0[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj3c641717[0].url }}"><img src="{{ mj3c641717[0].image }}" alt="{{ mj3c641717[0].prompt }}" width="45%" height="45%"/></a>
 
 {% assign history = site.pages | where: "title", "History of Art" %}
 In many of the images the the figures depicted are looking at art, making it, or becoming part of it. More of this series can be viewed in the [History of Art]({{ history[0].url }}) gallery.
