@@ -4,7 +4,7 @@ title: History of Art
 permalink: /projects/art-history
 ---
 
-<h2><i>"Depictions of Madness in the History of Art"</i></h2>
+<h2><i>"Depictions of 'Madness' in the History of Art"</i></h2>
 
 <p><b>Prompt format:</b> <code>the (depiction|representation) of [X] in the history of art</code>
 
