@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: default
 ---
 
  <p><img src="{{ page.image }}" alt="{{ page.prompt }}"></p>
   <p><ul>
 	  <li><b>Prompt:</b> "<i>{{ page.prompt }}</i>"</li>
 	  <li><b>Seed:</b> {{ page.seed }}</li>
+	  <li><b>Date:</b> {{ page.date }}</li>
 	  <li><b>ID:</b> <a href="https://www.midjourney.com/app/jobs/{{ page.job_id }}/">{{ page.job_id }}</a></li>
 	  <li><b>Generator:</b> <a href="https://www.midjourney.org">Midjourney<a></li>
   </ul>
