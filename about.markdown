@@ -6,10 +6,13 @@ author: markadams
 subtitle: Bio and contact
 ---
 
-<p>
-{% assign authorDetails = site.data.authors[page.author] %}
-{{ authorDetails.bio }}
-</p>
+## Contributors
+
+<ul>
+{% for authorDetails in site.data.authors %}
+	<li>{{ authorDetails[1].bio }}</li>
+{% endfor %}
+</ul>
 
 ## Contact
 
