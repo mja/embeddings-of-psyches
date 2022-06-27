@@ -19,11 +19,11 @@ I was drawn to the fourth image and asked Midjourney to produce variations:
 I didn't like any of these as much as the original, so I went back and upscaled it:
 
 {% assign abstraction = site.midjourney | where: "job_id", "d5629910-9871-43b2-9494-b8062266438f" %}
-<p><a href="{{ abstraction[0].url }}"><img src="{{ abstraction[0].image }}" alt="{{ abstraction[0].prompt }}" width=512 height=512/></a></p>
+<p><a href="{{ abstraction[0].url }}"><img src="{{ abstraction[0].image }}" alt="{{ abstraction[0].prompt }}"/></a></p>
 
 The resulting image had a painterly look, perhaps from interpreting the "abstraction of" as "[abstract art][abstract]", but it had the feeling of a figure sitting in an art gallery or museum. This led me to prompt Midjourney to generate images inspired by the [history of mental illness in art][illness-in-art] by appending the phrase "in the history of art":
 
-<img src="https://storage.googleapis.com/dream-machines-output/55c36f4a-f702-42c1-a70a-ddbe69a96486/grid_0.png" width="256" height="256"/><img src="https://storage.googleapis.com/dream-machines-output/3458094a-8e80-4cfe-af59-399d6fbabbc9/grid_0.png" width="256" height="256"/>
+<img src="https://storage.googleapis.com/dream-machines-output/55c36f4a-f702-42c1-a70a-ddbe69a96486/grid_0.png" width="50%" height="50%"/><img src="https://storage.googleapis.com/dream-machines-output/3458094a-8e80-4cfe-af59-399d6fbabbc9/grid_0.png" width="50%" height="50%"/>
 
 I was struck by how the prompt generated images of framed paintings hung in galleries. However, the use of terms for psychiatric diagnoses in the prompt lead back into the territory of the earlier "gene for…" experiments. Would constructing prompts based on symptoms would be constructive?:
 
@@ -32,9 +32,9 @@ I was struck by how the prompt generated images of framed paintings hung in gall
 {% assign mj52e1ada0 = site.midjourney | where: "job_id", "52e1ada0-8baa-4c9f-b720-b3a7021c922a" %}
 {% assign mj3c641717= site.midjourney | where: "job_id", "3c641717-6559-4482-b4ce-d02749b5d480" %}
 
-<a href="{{ mj67302fc3[0].url }}"><img src="{{ mj67302fc3[0].image }}" alt="{{ mj67302fc3[0].prompt }}" width=256 height=256/></a> <a href="{{ mj709295e5[0].url }}"><img src="{{ mj709295e5[0].image }}" alt="{{ mj709295e5[0].prompt }}" width=256 height=256/></a>
+<a href="{{ mj67302fc3[0].url }}"><img src="{{ mj67302fc3[0].image }}" alt="{{ mj67302fc3[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj709295e5[0].url }}"><img src="{{ mj709295e5[0].image }}" alt="{{ mj709295e5[0].prompt }}" width="45%" height="45%"/></a>
 
-<a href="{{ mj52e1ada0[0].url }}"><img src="{{ mj52e1ada0[0].image }}" alt="{{ mj52e1ada0[0].prompt }}" width=256 height=256/></a> <a href="{{ mj3c641717[0].url }}"><img src="{{ mj3c641717[0].image }}" alt="{{ mj3c641717[0].prompt }}" width=256 height=256/></a>
+<a href="{{ mj52e1ada0[0].url }}"><img src="{{ mj52e1ada0[0].image }}" alt="{{ mj52e1ada0[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj3c641717[0].url }}"><img src="{{ mj3c641717[0].image }}" alt="{{ mj3c641717[0].prompt }}" width="50%" height="50%"/></a>
 
 {% assign history = site.pages | where: "title", "History of Art" %}
 In many of the images the the figures depicted are looking at art, making it, or becoming part of it. More of this series can be viewed in the [History of Art]({{ history[0].url }}) gallery.
