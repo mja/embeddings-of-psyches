@@ -25,7 +25,7 @@ The resulting image had a painterly look, perhaps from interpreting the "abstrac
 
 <img src="https://storage.googleapis.com/dream-machines-output/55c36f4a-f702-42c1-a70a-ddbe69a96486/grid_0.png" width="50%" height="50%"/><img src="https://storage.googleapis.com/dream-machines-output/3458094a-8e80-4cfe-af59-399d6fbabbc9/grid_0.png" width="50%" height="50%"/>
 
-I was struck by how the prompt generated images of framed paintings hung in galleries. However, the use of terms for psychiatric diagnoses in the prompt lead back into the territory of the earlier "gene for…" experiments. Would constructing prompts based on symptoms would be constructive?:
+I was struck by how the prompt generated images of framed paintings hung in galleries. However, the use of terms for psychiatric diagnoses in the prompt lead back into the territory of the earlier "gene for…" experiments. Would constructing prompts based on symptoms be constructive?:
 
 {% assign mj67302fc3 = site.midjourney | where: "job_id", "67302fc3-fe61-41fe-98a8-cc9ad2979014" %}
 {% assign mj709295e5 = site.midjourney | where: "job_id", "709295e5-d659-4f06-bff3-73dc7e26b124" %}
