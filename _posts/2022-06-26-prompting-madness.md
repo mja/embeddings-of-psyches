@@ -6,6 +6,8 @@ tags: introduction
 author: markadams
 ---
 
+![Depiction of madness in the history of art](https://cdn.discordapp.com/attachments/989159305817260062/990594378139578408/4e39b8ea-04bb-48c8-8cc7-19ab59d841be_0_MJAdams_the_depiction_of_madness_in_the_history_of_art.png)
+
 > [AI] is not a mirror, and it is not a parrot — [Joanna J. Bryson][sentience-and-sensibility]
 
 Text-to-image generators are deep learning, neural network models that create images based on natural language prompts. These generators (such as [DALL·E 2][DALLE2], [Midjourney][midjourney], and [IMAGEN][imagen]) are now able to construct novel, credible photograph-like and painting-like images. Like computer vision algorithms, these tools are built by training them on millions or billions of pairs of images and text descriptions.
