@@ -22,6 +22,12 @@ permalink: /projects/art-history
   <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width=512 height=512/></a></p>
 {% endfor %}
 
+<h3><i>"Rumination"</i></h3>
+{% assign rumination = journeys | where: "symptom", "rumination" %}
+{% for mj in rumination %}
+  <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width=512 height=512/></a></p>
+{% endfor %}
+
 <h3><i>"Mania"</i></h3>
 {% assign mania = journeys | where: "symptom", "mania" %}
 {% for mj in mania %}
@@ -31,7 +37,7 @@ permalink: /projects/art-history
 <h3><i>"Psychosis"</i></h3>
 {% assign psychosis = journeys | where: "symptom", "psychosis" %}
 {% for mj in psychosis %}
-  <p><a href="{{ mj.url }}">{<img src="{{ mj.image }}" alt="{{ mj.prompt }}" width=512 height=512/></a></p>
+  <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width=512 height=512/></a></p>
 {% endfor %}
 
 <h3><i>"Neurosis"</i></h3>
