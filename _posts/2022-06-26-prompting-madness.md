@@ -12,7 +12,7 @@ author: markadams
 
 Text-to-image generators are deep learning models that create images based on natural language prompts. These generators (such as [DALL·E 2][DALLE2], [Midjourney][midjourney], and [IMAGEN][imagen]) are now able to construct novel, credible photograph- and painting-like images. As computer vision algorithms, these tools are built by training them on millions or billions of pairs of images and text descriptions.
 
-An ethical concern with text-to-image generators is that they "[reflect social stereotypes, oppressive viewpoints, and derogatory, or otherwise harmful, associations to marginalized identity groups][saharia-norouzi]". This project explores similar concerns for the representation of mental health, mental disorders, and neurodivergence in AI-generated imagery. At the same time, it looks into how disruptions of the human psyche have been depicted through art as captured by the latent space of deep learning embeddings.
+An ethical concern with text-to-image generators is that they "[reflect social stereotypes, oppressive viewpoints, and derogatory, or otherwise harmful, associations to marginalized identity groups][saharia-norouzi]". This project explores similar concerns for the representation of mental health, mental disorders, and neurodivergence in AI-generated imagery. At the same time, it looks into how variations, fluctuations, and disruptions of the human psyche have been depicted through art as captured by the latent space of deep learning embeddings.
 
 ## Prior art
 

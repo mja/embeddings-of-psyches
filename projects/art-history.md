@@ -7,7 +7,9 @@ permalink: /projects/art-history
 <h2><i>"Depictions of 'Madness' in the History of Art"</i></h2>
 
 <p><b>Introduction:</b> <a href="{% post_url 2022-06-25-symptoms-and-disorders %}">Symptoms and disorders</a></p>
-<p><b>Prompt format:</b> <code>the (depiction|representation) of [X] in the history of art</code>
+<p><b>Prompt format:</b> <code>the (depiction|representation) of [X] in the history of art</code></p>
+
+<p>The images on this page are AI-art created with image-to-text transformers. Each image links to information about the prompt and other metadata.</p>
 
 {% assign journeys = site.midjourney | where: "project", "art-history" %}
 

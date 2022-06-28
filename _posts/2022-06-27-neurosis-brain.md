@@ -13,7 +13,7 @@ Initial experiments for the [History of Art][art-history] project with the term 
 <a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width="33%" height="33%"/></a>
 {%- endfor -%}
 
-While the image with the [deflated brain][c0fa160c] (or is it a bunch of small brains piled like pillows?) was intriguing, the overall effect was not what I was going for. I then redid the prompt adding [text weight][text-weight] modifiers to downweight or remove any brain-related output.
+The image with the [deflated brain][c0fa160c] (or is it a bunch of small brains piled like pillows?) was intriguing, the overall effect was not what I was going for. I then redid the prompt adding [text weight][text-weight] modifiers to downweight or remove any brain-related output.
 
 {% assign nobrain = site.midjourney | where: "prompt", "the depiction of neurosis in the history of art::1 brain::-0.5" %}
 {%- for mj in nobrain limit:3 -%}
