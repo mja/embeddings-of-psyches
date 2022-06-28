@@ -29,6 +29,8 @@ github_username:  mja
 
 source_url: "https://github.com/mja/embeddings-of-psyches/blob/main"
 
+static_url: "https://f000.backblazeb2.com/file/mja-static/latent"
+
 # Build settings
 theme: minima
 plugins:
