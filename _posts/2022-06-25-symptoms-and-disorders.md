@@ -21,11 +21,11 @@ I didn't like any of these as much as the original, so I went back and upscaled 
 {% assign abstraction = site.midjourney | where: "job_id", "d5629910-9871-43b2-9494-b8062266438f" %}
 <p><a href="{{ abstraction[0].url }}"><img src="{{ abstraction[0].image }}" alt="{{ abstraction[0].prompt }}"/></a></p>
 
-The resulting image had a painterly look, perhaps from interpreting the "abstraction of" as "[abstract art][abstract]", but it had the feeling of a figure sitting in an art gallery or museum. This led me to prompt Midjourney to generate images inspired by the [history of mental illness in art][illness-in-art] by appending the phrase "in the history of art":
+The resulting image had a painterly look, perhaps from interpreting the "abstraction of" as "[abstract art][abstract]", and had the feeling of a figure sitting in an art gallery or museum. This led me to prompt Midjourney to generate images inspired by the [history of mental illness in art][illness-in-art] by appending the phrase "in the history of art":
 
 <img src="https://storage.googleapis.com/dream-machines-output/55c36f4a-f702-42c1-a70a-ddbe69a96486/grid_0.png" width="50%" height="50%"/><img src="https://storage.googleapis.com/dream-machines-output/3458094a-8e80-4cfe-af59-399d6fbabbc9/grid_0.png" width="50%" height="50%"/>
 
-I was struck by how the prompt generated images of framed paintings hung in galleries. However, the use of terms for psychiatric diagnoses in the prompt lead back into the territory of the earlier "gene for…" experiments. Would constructing prompts based on symptoms be constructive?:
+I was struck by how the prompt generated images of framed paintings hung in galleries. However, the use of terms for psychiatric diagnoses in the prompt lead back into the territory of the earlier "gene for…" experiments. Would rewriting prompts based on symptoms be constructive?:
 
 {% assign mj67302fc3 = site.midjourney | where: "job_id", "67302fc3-fe61-41fe-98a8-cc9ad2979014" %}
 {% assign mj709295e5 = site.midjourney | where: "job_id", "709295e5-d659-4f06-bff3-73dc7e26b124" %}
