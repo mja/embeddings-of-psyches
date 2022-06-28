@@ -7,5 +7,5 @@ image: https://storage.googleapis.com/dream-machines-output/52e1ada0-8baa-4c9f-b
 save: 52e1ada0-8baa-4c9f-b720-b3a7021c922a_MJAdams_the_depictionofneurosisinthehistoryofart.png
 symptom: neurosis
 project: art-history
-timestamp: 2022-06-DD HH:MM:00 BST
+timestamp: 2022-06-25 09:37:00 BST
 ---
