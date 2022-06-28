@@ -2,7 +2,7 @@
 layout: default
 ---
 
- <p><img src="{{ site.static_url }}/midjourney/{{ page.save }}" alt="{{ page.prompt | xml_escape }}"></p>
+ <p><a href="{{ site.static_url }}/midjourney/{{ page.save }}"><img src="{{ site.static_url }}/midjourney/{{ page.save }}" alt="{{ page.prompt | xml_escape }}"></a></p>
   <p><ul>
 	  <li><b>Prompt:</b> "<i>{{ page.prompt | xml_escape }}</i>"</li>
 	  <li><b>Seed:</b> {{ page.seed }}</li>

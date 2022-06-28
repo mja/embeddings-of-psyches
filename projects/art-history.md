@@ -16,35 +16,35 @@ permalink: /projects/art-history
 <h3><i>"Madness"</i></h3>
 {% assign madness = journeys | where: "symptom", "madness" %}
 {% for mj in madness %}
-  <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
+  <p><a href="{{ mj.url }}"><img src="{{ site.static_url }}/midjourney/{{ mj.save }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
 {% endfor %}
 
 <h3><i>"Melancholy"</i></h3>
 {% assign melancholy = journeys | where: "symptom", "melancholy" %}
 {% for mj in melancholy %}
-  <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
+  <p><a href="{{ mj.url }}"><img src="{{ site.static_url }}/midjourney/{{ mj.save }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
 {% endfor %}
 
 <h3><i>"Rumination"</i></h3>
 {% assign rumination = journeys | where: "symptom", "rumination" %}
 {% for mj in rumination %}
-  <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
+  <p><a href="{{ mj.url }}"><img src="{{ site.static_url }}/midjourney/{{ mj.save }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
 {% endfor %}
 
 <h3><i>"Mania"</i></h3>
 {% assign mania = journeys | where: "symptom", "mania" %}
 {% for mj in mania %}
-  <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
+  <p><a href="{{ mj.url }}"><img src="{{ site.static_url }}/midjourney/{{ mj.save }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
 {% endfor %}
 
 <h3><i>"Psychosis"</i></h3>
 {% assign psychosis = journeys | where: "symptom", "psychosis" %}
 {% for mj in psychosis %}
-  <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
+  <p><a href="{{ mj.url }}"><img src="{{ site.static_url }}/midjourney/{{ mj.save }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
 {% endfor %}
 
 <h3><i>"Neurosis"</i></h3>
 {% assign neurosis = journeys | where: "symptom", "neurosis" %}
 {% for mj in neurosis %}
-  <p><a href="{{ mj.url }}"><img src="{{ mj.image }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
+  <p><a href="{{ mj.url }}"><img src="{{ site.static_url }}/midjourney/{{ mj.save }}" alt="{{ mj.prompt }}" width="70%" height="70%"/></a></p>
 {% endfor %}
