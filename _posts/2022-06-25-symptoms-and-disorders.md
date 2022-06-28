@@ -44,4 +44,4 @@ In many of the images the the figures depicted are looking at art, making it, or
 [gene-for-anx]: https://storage.googleapis.com/dream-machines-output/7e8a6fbd-53c1-4afa-ac1c-854437232876/grid_0.webp
 [gene-for-scz]: https://storage.googleapis.com/dream-machines-output/42e4023c-befb-4c64-a89f-34a1a4c25489/grid_0.webp
 [abstract]: https://en.wikipedia.org/wiki/Abstract_art
-[illness-in-art]: https://www.theguardian.com/society/christmas-charity-appeal-2014-blog/2015/jan/13/-sp-a-short-history-of-mental-illness-in-art
+[illness-in-art]: https://www.theparisreview.org/blog/2015/04/22/madness-and-meaning/
