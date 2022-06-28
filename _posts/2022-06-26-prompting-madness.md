@@ -6,7 +6,7 @@ tags: introduction
 author: markadams
 ---
 
-{% assign mj4e39b8ea= site.midjourney | where: "job_id", "d5629910-9871-43b2-9494-b8062266438f" %}
+{% assign mj4e39b8ea= site.midjourney | where: "job_id", "4e39b8ea-04bb-48c8-8cc7-19ab59d841be" %}
 
 <a href="{{ mj4e39b8ea[0].url }}"><img src="{{ mj4e39b8ea[0].image }}" alt="{{ mj67302fc3[0].prompt }}"/></a>
 
