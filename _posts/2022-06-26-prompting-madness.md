@@ -6,7 +6,9 @@ tags: introduction
 author: markadams
 ---
 
-![Depiction of madness in the history of art](https://cdn.discordapp.com/attachments/989159305817260062/990594378139578408/4e39b8ea-04bb-48c8-8cc7-19ab59d841be_0_MJAdams_the_depiction_of_madness_in_the_history_of_art.png)
+{% assign mj4e39b8ea= site.midjourney | where: "job_id", "d5629910-9871-43b2-9494-b8062266438f" %}
+
+<a href="{{ mj4e39b8ea[0].url }}"><img src="{{ mj4e39b8ea[0].image }}" alt="{{ mj67302fc3[0].prompt }}"/></a>
 
 > [AI] is not a mirror, and it is not a parrot — [Joanna J. Bryson][sentience-and-sensibility]
 
