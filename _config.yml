@@ -27,6 +27,8 @@ url: "https://latent.differentialist.info" # the base hostname & protocol for yo
 twitter_username: mja
 github_username:  mja
 
+source_url: "https://github.com/mja/embeddings-of-psyches/blob/main"
+
 # Build settings
 theme: minima
 plugins:

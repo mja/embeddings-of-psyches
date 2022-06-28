@@ -28,9 +28,10 @@ subtitle: Info and contact
 
 ## Terms
 
-- Words, code, and text data made available under an MIT license.
+- [Words, code, and text data][source] made available under an MIT license.
 - Images generated with [Midjourney][mjco] are copyright [Midjourney, Inc][mjinc], used under license.
 
 [intro]: {% post_url 2022-06-26-prompting-madness %}
+[source]: {{ site.source_url }}/README.md
 [mjco]: https://midjourney.com
 [mjinc]: https://midjourney.org
