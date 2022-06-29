@@ -19,7 +19,7 @@ I was drawn to the fourth image and asked Midjourney to produce variations:
 I didn't like any of these as much as the original, so I went back and upscaled it:
 
 {% assign abstraction = site.midjourney | where: "job_id", "d5629910-9871-43b2-9494-b8062266438f" %}
-<p><a href="{{ abstraction[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ abstraction[0].save }}" alt="{{ abstraction[0].prompt }}"/></a></p>
+<p><a href="{{ abstraction[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ abstraction[0].save }}.jpg" alt="{{ abstraction[0].prompt }}"/></a></p>
 
 The resulting image had a painterly look, perhaps from interpreting the "abstraction of" as "[abstract art][abstract]", and had the feeling of a figure sitting in an art gallery or museum. This led me to prompt Midjourney to generate images inspired by the [history of mental illness in art][illness-in-art] by appending the phrase "in the history of art":
 
@@ -32,9 +32,9 @@ I was struck by how the prompt generated images of framed paintings hung in gall
 {% assign mj52e1ada0 = site.midjourney | where: "job_id", "52e1ada0-8baa-4c9f-b720-b3a7021c922a" %}
 {% assign mj3c641717= site.midjourney | where: "job_id", "3c641717-6559-4482-b4ce-d02749b5d480" %}
 
-<a href="{{ mj67302fc3[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ mj67302fc3[0].save }}" alt="{{ mj67302fc3[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj709295e5[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ mj709295e5[0].save }}" alt="{{ mj709295e5[0].prompt }}" width="45%" height="45%"/></a>
+<a href="{{ mj67302fc3[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ mj67302fc3[0].save }}.jpg" alt="{{ mj67302fc3[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj709295e5[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ mj709295e5[0].save }}.jpg" alt="{{ mj709295e5[0].prompt }}" width="45%" height="45%"/></a>
 
-<a href="{{ mj52e1ada0[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ mj52e1ada0[0].save }}" alt="{{ mj52e1ada0[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj3c641717[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ mj3c641717[0].save }}" alt="{{ mj3c641717[0].prompt }}" width="45%" height="45%"/></a>
+<a href="{{ mj52e1ada0[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ mj52e1ada0[0].save }}.jpg" alt="{{ mj52e1ada0[0].prompt }}" width="45%" height="45%"/></a> <a href="{{ mj3c641717[0].url }}"><img src="{{ site.static_url }}/midjourney/{{ mj3c641717[0].save }}.jpg" alt="{{ mj3c641717[0].prompt }}" width="45%" height="45%"/></a>
 
 {% assign history = site.pages | where: "title", "History of Art" %}
 In many of the images the the figures depicted are looking at art, making it, or becoming part of it. More of this series can be viewed in the [History of Art]({{ history[0].url }}) gallery.
