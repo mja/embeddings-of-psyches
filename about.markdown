@@ -6,7 +6,7 @@ author: markadams
 subtitle: Info and contact
 ---
 
-**Embedding the Psyche** is an art research project about the representation of mental health in AI-driven art. An "embedding" is the way that a data point, concept, or feature is encoded within certain deep learning models. See the [project introduction][intro] for more.
+**Embedding the Psyche** is an art research project about the representation of mental health in AI-driven and generative art. An "embedding" is the way that a data point, concept, or feature is encoded within certain deep learning models. See the [project introduction][intro] for more.
 
 ## Authors
 
