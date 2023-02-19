@@ -2,7 +2,7 @@
 layout: post
 title:  "diffusers: a platform for systematic AI art research and creative ideation"
 date:   2022-08-10 11:39:03 +0100
-tags: art-history
+tags: art-history, diffusers
 author: markadams
 ---
 
