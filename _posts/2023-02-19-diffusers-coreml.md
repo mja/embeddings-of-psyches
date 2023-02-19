@@ -6,7 +6,7 @@ tags: diffusers
 author: markadams
 ---
 
-Apple have released a set of scripts for [converting Diffusion models to Core ML](https://github.com/apple/ml-stable-diffusion) that are optimised for running on Apple Silicon. The code includes a python programming for generating images but it is rather slow as it has to compile the model each time. To speed things up, it's possible to load the model in your own python scripts once and then run the pipeline multiple times.
+Apple have released a set of scripts for [converting Diffusion models to Core ML](https://github.com/apple/ml-stable-diffusion) that are optimised for running on Apple Silicon. The code includes a python command line script for generating images but it is rather slow as it has to compile the model each time. To speed things up, it's possible to load the model in your own python scripts once and then run the pipeline multiple times.
 
 On an M2 Pro with 32GB of memory, I get a 2x speed-up running Stable Diffusion with Core ML in python compared to the PyTorch versions with MPS backend (10 seconds vs 22 seconds).
 
